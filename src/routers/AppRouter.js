@@ -3,6 +3,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route } from "react-router-dom";
+import Despedida from '../components/Despedida';
 import Home from '../components/Home';
 import ListClient from '../components/ListClient';
 import Login from '../components/Login';
@@ -20,6 +21,7 @@ function AppRouter() {
                             <Route exact path="/home" component={Home} />
                             <Route exact path="/plan" component={Plan} />
                             <Route exact path="/listclient" component={ListClient} />
+                            <Route exact path="/end" component={Despedida} />
                         </Switch>
                     </div>
             </Router>
