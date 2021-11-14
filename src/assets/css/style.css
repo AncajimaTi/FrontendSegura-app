@@ -1,0 +1,51 @@
+.FondoImg {
+  background-image: url("../img/Base.png");
+  background-repeat: no-repeat;
+  /* border-style: solid; */
+  background-size: 40%;
+  /* width:50%; */
+}
+
+.lyrics-color-primary {
+  color: #007bff;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.lyrics-color-secondary {
+  color: #909396;
+}
+
+.lyrics-text-decoration {
+  text-decoration: underline;
+}
+
+.lyrics-color-white {
+  color: #ffffff;
+}
+
+.lyrics-color-white-opacity {
+  color: #ece4e4;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.custom-control-input:active ~ .custom-control-label::before {
+  background-color: green;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center{
+  justify-content: center;
+}
+
+
+.form-check-input-plan[type=radio] {
+    border-radius: 50%;
+    margin-left: 7rem;
+    cursor: pointer;
+}
