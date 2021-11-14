@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Swal from 'sweetalert2'
+import { UseFetchGet } from "./UseFetchGet";
 
 export const UseFetchPost = (initialState) => {
     
@@ -23,9 +24,14 @@ export const UseFetchPost = (initialState) => {
             setRespuestaDelete({
                 resp:message
             })
+
+            // UseFetchGet('http://localhost:3085/programming-languages/list/client');
+            window.location.reload();
         });
         
     }
+
+   
 
     return [handleDeleteClient,resp];
 
